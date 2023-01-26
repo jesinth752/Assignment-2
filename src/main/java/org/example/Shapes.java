@@ -14,7 +14,7 @@ abstract class PROPERTIES
 
     double peri;
 
-    double area;
+    double area1;
     Scanner input=new Scanner(System.in);
     public static final Logger LOGGER = Logger.getLogger("InfoLogging");
 
@@ -47,7 +47,7 @@ class Triangle extends PROPERTIES
     public void area()
     {
         calc=h*b;
-        area=((calc)/2.0);
+        area1=((calc)/2.0);
         LOGGER.info("Area of triangle :"+area);
     }
 
@@ -75,7 +75,7 @@ class Rectangle extends PROPERTIES
     }
 
     public void area() {
-        area=l*w;
+        area1=(l*w);
         LOGGER.info("Area of the rectangle "+(int)area);
 
     }
@@ -97,13 +97,13 @@ class Circle extends PROPERTIES
 
     public void area()
     {
-        area=3.1415*r*r;
+        area1=((3.1415)*(r*r));
         LOGGER.info("Area of the circle:"+area);
     }
 
 
     public void perimeter() {
-        peri=2*3.1415*r;
+        peri=((2*3.1415)*r);
         LOGGER.info("circumference of the circle:"+peri);
     }
 }
