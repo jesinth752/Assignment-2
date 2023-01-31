@@ -15,7 +15,7 @@ abstract class PROPERTIES
     double peri;
 
     double area1;
-    String P;
+    String p;
     Scanner input=new Scanner(System.in);
     public static final Logger LOGGER = Logger.getLogger("InfoLogging");
 
@@ -50,16 +50,16 @@ class Triangle extends PROPERTIES
     {
         calc=h*b;
         area1=((calc)/2.0);
-        P="Area of triangle :"+area1;
-        LOGGER.info(P);
+        p="Area of triangle :"+area1;
+        LOGGER.info(p);
     }
 
 
     public void perimeter() {
 
         peri=(a+b+c);
-        P="Perimeter of triangle :"+(int)peri;
-        LOGGER.info(P);
+        p="Perimeter of triangle :"+(int)peri;
+        LOGGER.info(p);
     }
 }
 
@@ -80,16 +80,16 @@ class Rectangle extends PROPERTIES
 
     public void area() {
         area1=(l*w);
-        P="Area of the rectangle :"+(int)area1;
-        LOGGER.info(P);
+        p="Area of the rectangle :"+(int)area1;
+        LOGGER.info(p);
 
     }
 
 
     public void perimeter() {
         peri=(2*(l*w));
-        P="Perimeter of the rectangle :"+(int)peri;
-        LOGGER.info(P);
+        p="Perimeter of the rectangle :"+(int)peri;
+        LOGGER.info(p);
     }
 }
 class Circle extends PROPERTIES
@@ -104,15 +104,15 @@ class Circle extends PROPERTIES
     public void area()
     {
         area1=((3.1415)*(r*r));
-        P="Area of the circle:"+area1;
-        LOGGER.info(P);
+        p="Area of the circle:"+area1;
+        LOGGER.info(p);
     }
 
 
     public void perimeter() {
         peri=((2*3.1415)*r);
-        P="circumference of the circle:"+peri;
-        LOGGER.info(P);
+        p="circumference of the circle:"+peri;
+        LOGGER.info(p);
     }
 }
 public class Shapes {
