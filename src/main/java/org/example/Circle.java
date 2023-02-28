@@ -12,14 +12,14 @@ class Circle extends PROPERTIES
     public void area()
     {
         area1=((3.1415)*(r*r));
-        P="Area of the circle:"+area1;
-        LOGGER.info(P);
+        p="Area of the circle:"+area1;
+        LOGGER.info(p);
     }
 
 
     public void perimeter() {
         peri=((2*3.1415)*r);
-        P="circumference of the circle:"+peri;
-        LOGGER.info(P);
+        p="circumference of the circle:"+peri;
+        LOGGER.info(p);
     }
 }

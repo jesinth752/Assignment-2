@@ -12,7 +12,7 @@ abstract class PROPERTIES
     double peri;
 
     double area1;
-    String P;
+    String p;
     Scanner input=new Scanner(System.in);
     public static final Logger LOGGER = Logger.getLogger("InfoLogging");
 

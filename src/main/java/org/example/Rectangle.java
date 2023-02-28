@@ -17,15 +17,15 @@ class Rectangle extends PROPERTIES
 
     public void area() {
         area1=(l*w);
-        P="Area of the rectangle :"+(int)area1;
-        LOGGER.info(P);
+        p="Area of the rectangle :"+(int)area1;
+        LOGGER.info(p);
 
     }
 
 
     public void perimeter() {
         peri=(2*(l*w));
-        P="Perimeter of the rectangle :"+(int)peri;
-        LOGGER.info(P);
+        p="Perimeter of the rectangle :"+(int)peri;
+        LOGGER.info(p);
     }
 }

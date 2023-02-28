@@ -29,15 +29,15 @@ class Triangle extends PROPERTIES
     {
         calc=h*b;
         area1=((calc)/2.0);
-        P="Area of triangle :"+area1;
-        LOGGER.info(P);
+        p="Area of triangle :"+area1;
+        LOGGER.info(p);
     }
 
 
     public void perimeter() {
 
         peri=(a+b+c);
-        P="Perimeter of triangle :"+(int)peri;
-        LOGGER.info(P);
+        p="Perimeter of triangle :"+(int)peri;
+        LOGGER.info(p);
     }
 }
